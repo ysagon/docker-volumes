@@ -42,7 +42,7 @@ yourself.
 ```bash
 docker build -t docker-volumes https://github.com/cpuguy83/docker-volumes.git
 docker run --name docker-volumes docker-volumes
-docker cp docker-volumes:/docker-volumes ./
+docker cp docker-volumes:/usr/bin/docker-volumes ./
 ```
 
 By default when compiling from the Dockerfile it will compile for linux/amd64.
